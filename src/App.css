@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2{
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.app-header{
+  height: 80px;
+  background-color: #8081F6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#encabezado {
+  background-color:#F91716;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.barra input {
+  border-radius: 50px;
+  border: none;
+}
+.searchbar {
+  margin: 15px;
+  size: 50;
+  font-size: 20px;
+  padding: 12px 70px;
+}
+.carrito {
+  width: 15%;
+
+}
+.logo-carrito{
+  margin: 16px;
+    padding: 1px;
+}
+
+.carrito img {
+  width: 150%;
+}
+
+.nav-logo{
+  margin:0px;
+}
+
+.Conoce-mas{
+  background-color:#F91716 ;
+  font-family: monospace;
+  color: white;
+  border: none;
+}
+
+#artic{
+  display: flex;
+  justify-content: space-between;
+  background-color: #F91716;
+  width: 100%;
+
+
+}
+#artic div{
+  margin: 10px;
+  text-align: center;
+  width: 25%;
+}
+
+#banner{
+  text-align:center;
+   padding: 110px;
+  background-image:url(https://placeimg.com/1000/400/tech)
+
+}
+
+.beneficios {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: lightgray;
+  margin: 12px 0px; 
+  padding: 24px;
+}
+
+.conteiner-tarj-benef {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 0px 12px;
+
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+   padding: 48px;
+}
+
+.item .item-product {
+  width: 22%;
+  border: 1px solid grey;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.item .item-product img{
+  width: 100%;
+}
+.item-product:hover{
+  -webkit-animation: scale(1.05);
+  transform: scale(1.05);
+  font-weight: lighter;
+  
+}
+
+.ver-mas{
+  background:#F91716;
+  padding: 12px 25px;
+  text-align: center;
+  width: 30%;
+  margin: 0px auto;
+}
+
+.ver-mas:hover{
+  font-weight: bold;
+  box-shadow: grey 3px 3px 3px;
+}
+
+.footer{
+  display: flex;
+  background-color:#F91716;
+  flex-direction: column;
+  height: 150px;
+  margin-block-start: 30%;
+  margin: 30px;
+}
+
+.footer, .footer p{
+  margin: 10px;
+}
+
+.link-compra:hover{
+font-weight: bolder;
 }
